@@ -1,0 +1,452 @@
+ /* 间距清0 */
+ *{
+    margin: 0;
+    padding: 0;
+  }
+  .container{
+    width: 1200px;
+  }
+  /* 全局背景设置 */
+  body{
+      background: #F5F5F5;
+  }
+  /* 头部导航设置 */
+  .navbar{
+    width: 100%;
+    background: #4498EE;
+    padding: 0;
+  }
+  .input-group>.custom-select:not(:first-child), .input-group>.form-control:not(:first-child){
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  .top-search-content a>img{
+    height: 50px;
+  }
+  .form-control{
+    border: 1px solid #fff;
+    background-color: #fff;
+  }
+  .form-control:focus{
+    box-shadow: none;
+    border-color: #fff;
+  }
+
+  .input-group{
+    width: 25%;
+  }
+  .search-button:hover{
+    background-color:#fff;
+  }
+  .search-button{
+    background:url(../img/search2.svg) center no-repeat;
+    background-size:contain;
+    background-color: #fff;
+    width: 20px;
+    border: none;
+    outline: none;
+    border: none;
+  }
+  .search-button:focus{
+    box-shadow: none;
+    outline: none;
+  }
+  .code{
+    width: 70px;
+    margin-right: 2rem;
+  }
+  .head-box a{
+    color: #fff;
+    font-size: 14px;
+  }
+  .vertical-line{
+    display: inline-block;
+    border-right:2px solid #fff;
+    height: 10px;
+    margin: 0 1.5rem;
+  }
+  /* 当前位置样式 */
+  .gps{
+      color: #666666;
+      font-size: 14px;
+  }
+  .gps a{
+      color: #666666;
+      font-size: 14px;
+  }
+  /* 身体左侧样式 */
+  .content-content{
+    overflow: hidden;
+  }
+  .content-left{
+    float: left;
+    width: 230px;
+  }
+  .text-top{
+      width: 230px;
+      height: 50px;
+      line-height: 50px;
+      background-color: #4498EE;
+      text-align: center;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+  }
+  .text-top a{
+      color: #fff;
+      font-size: 14px;
+      font-weight: 700;
+  }
+  .text-top-list{
+      background-color: #fff;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      width: 230px;
+  }
+  .text-top-list li{
+    list-style: none;
+    width: 230px;
+  }
+  .text-top-list a{
+    font-size: 14px;
+    width:230px;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    color:#666666;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden
+  }
+  /* 中间title样式 */
+  .content-mid-top{
+      float: right;
+      width: Calc(100% - 246px);
+      background-color: #fff;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      padding: 10px 15px;
+  }
+  .mid-title-btn{
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+    font-size: 14px;
+    height: 30px;
+    width: 70px;
+    border: 1px solid #666666;
+    color: #666666;
+    white-space: nowrap;
+    padding: 0;
+  }
+  .right-text{
+      padding-top: 5px;
+      font-size: 14px;
+  }
+  .right-text i{
+      color: red;
+  }
+  /* 搜索结果框样式 */
+  .content-mid-bottom{
+    float: right;
+    width: Calc(100% - 246px);;
+  }
+  .item-list-item{
+      margin-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      list-style: none;
+      background-color: #fff;
+      border-radius: 10px;
+      border: 1px solid transparent
+  }
+  .item-title{
+    color:#999 ;
+    font-size: 12px;
+    border-bottom: 1px solid #999;
+    padding: 0.5rem 1rem;
+  }
+  .item-text a{
+    width: 80%;
+    display: block;
+    color:#666666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .item-text{
+    position: relative;
+    padding: 1rem;
+    border: 1px solid transparent; 
+  }
+  .font-color{
+    color: #999;
+  }
+  .mid-more-btn{
+    width: 100px;
+    font-size: 14px;
+    border: 1px solid #666666;
+    color: #666666;
+  }
+  .page-link{
+    white-space: nowrap;
+  }
+  .huang{
+    width: 50px;
+    height: 54px;
+    border: 1px solid #dee2e6;
+  }
+  .huang:focus{
+    outline:1px solid #dee2e6 ;
+  }
+  .go{
+    height: 54px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+  }
+  .load{
+    list-style: none;
+  }
+  .web-style,.web-time,.web-foot,.web-finally{
+    display: none;
+  }
+  /* pc底部样式编写 */
+   /* 底部样式编写 */
+ .foot{
+  background: #364044;
+  color: #f5f5f5;
+  height: 19rem;
+}
+.foot-bd-left{
+  width: 10rem;
+  height: 6rem;
+}
+.foot h3{
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.foot-bd-mid{
+  font-size: 12px;
+  line-height: 20px;
+}
+.foot-link{
+  color: #fff;
+  font-size: 0.75rem;
+}
+.foot-link:hover{
+  color: #fff;
+}
+.foot ul{
+  width: 13rem;
+}
+.foot li{
+  display: inline-block;
+  width: 5rem;
+}
+.foot-bd-left li{
+  display: inline-block;
+}
+.foot-bd-right{
+  font-size: 0.5rem;
+}
+
+.erweima{
+  width: 100px;
+  height: 80px;
+}
+.erweima-box h4{
+  font-size: 0.5rem;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.qq{
+  display: inline-block;
+  width: 208px;
+  height: 40px;
+  background-color: rgb(68, 152, 238);
+  text-align: center;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 28px;
+}
+.qq:hover{
+  background-color: rgb(57,130,206);
+  color: #fff;
+}
+.foot-bd{
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #999;
+}
+.foot-finally{
+  text-align: center;
+  color: #999;
+  font-size: 12px;
+}
+.foot-finally-link{
+  display: inline-block;
+  color: #999;
+  margin: 2px 2px;
+  font-size: 12px;
+}
+  
+  /* web样式编写 */
+  @media screen and (max-width: 992px){
+    /* pc样式清除 */
+    .container{
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .content-mid-top{
+      float: none;
+      width: 100%; 
+      padding: 0;
+      border-radius: 0;
+    }
+    .content-mid-bottom{
+      float:none;
+      width: 100%;
+    }
+    .mid-title-btn,.load,.gps,.foot{
+      display: none;
+    }
+    .web-style,.web-time{
+      display: inline-block;
+    }
+    .web-finally,.web-foot{
+      display: block;
+    }
+    .mid-more-btn{
+      display: none;
+    }
+    
+    /* web头部搜索样式 */
+    .web-div{
+      display: flex;
+      padding-left: 0;
+      padding-right: 0;
+      margin-top: 3px;
+    }
+    .web-inputfont{
+      flex: 1;
+    }
+    .web-inputfont:focus{
+      border: 1px solid #333;
+    }
+    .search{
+      width: 100%;
+      height: 100%;
+      margin-right: 0px;
+      margin-top: 0;
+    }
+    .top-search-content{
+      margin: 0;
+      height: 44px;
+      padding-left: 0;
+      padding-right: 0;
+      width: 100%;
+    }
+    .form-control{
+      height: 40px;
+      margin-top: 2px;
+    }
+    .search-button:focus{
+      background-color: #333;
+    }
+    .input-group>.custom-select:not(:first-child), .input-group>.form-control:not(:first-child){
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+    .input-group-append{
+      width: 10%;
+    }
+    .search-button{
+      background-color: #333;
+      height: 44px;
+      width: 100%;
+    }
+    .navbar{
+      background: #333;
+      height:44px ;
+    }
+    .web-back{
+      width: 10%;
+      height: 44px;
+      display: block;
+      color: #fff;
+      background: url(../img/back.svg) no-repeat center center;
+      background-size: contain;
+    }
+
+    /* 分类样式 */
+    .all-btn{
+      padding-left: 1rem;
+      display: inline-block;
+      background-color: #fff;
+      color: #333;
+      border: none;
+    }
+    .all-btn:focus{
+      background-color: #fff;
+      color: #333;
+      border: none;
+      outline: none;
+    }
+    .all-btn:active{
+      border: none;
+      outline: none;
+    }
+    .web-gps{
+      line-height: 44px;
+    }
+    .right-text{
+      padding: 0;
+      line-height: 44px;
+    }
+    /* 加载内容 */
+    .item-text a{
+      width: 100%;
+    }
+    .web-time{
+      color: #999;
+      font-size: 12px;
+    }
+    .item-title{
+      padding: 0.5rem 1rem;
+      border-bottom: none;
+      font-size: 12px;
+    }
+    .item-list{
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    /* web底部样式 */
+    .web-finally{
+      text-align: center;
+      color: #999;
+    }
+    .foot-box{
+      height: 1rem;
+      position: relative;
+    }
+    .web-foot-top{
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%,0);
+      font-size: 0.5rem;
+      white-space: nowrap
+    }
+    .web-foot-top a{
+      color: #999;
+    }
+    .web-foot-down{
+      text-align: center;
+      font-size: 0.5rem;
+      color: #999;
+    }
+    .vertical-line{
+      margin-left: 0.8rem;
+      margin-right: 0.8rem;
+      border-left: 1px solid #999;
+    }
+  }

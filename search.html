@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>搜索落地</title>
+    <link rel="stylesheet" href="./css/bootstrap@4.5.0.css">
+    <link rel="stylesheet" href="./css/search.css">
+</head>
+<body>
+    <!-- 头部 -->
+    <nav class="navbar navbar-dark head-navbar">
+            <div class="container top-search-content d-flex justify-content-between align-items-center">
+                    <a href="#" class="d-none d-lg-inline-block py-lg-3"><img src="./img/logo.png" alt=""></a>
+                    <div class="input-group search d-flex justify-content-between">
+                        <button class="btn web-back d-inline-block"></button>
+                        <input type="text" class="form-control" placeholder="请输入搜索关键字" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <div class="input-group-append">
+                        <button class="btn btn-outline-secondary search-button" type="button" id="button-addon2"></button>
+                        </div>
+                    </div>
+                <div class="head-box d-none d-lg-block"><div class="web-head-top"><a href="#">首页</a><span class="vertical-line"></span><a href="#">奥数题</a><span class="vertical-line"></span><a href="#">试卷</a><span class="vertical-line"></span><a href="#">课件</a><span class="vertical-line"></span><a href="#">习题</a></div></div>
+            </div>
+    </nav>
+    <!-- 当前位置 -->
+    <div class="container">
+        <div class="gps py-2">
+            当前位置：<a href="#">首页 </a>> <a href="#">  搜索结果</a> 
+        </div> 
+    </div> 
+    <div class="container content-content pb-lg-5">
+            <div class="content-left d-lg-block d-none">
+                <div class="text-top">
+                    <a href="#">奥数题关注排行</a>
+                </div>
+                <ul class="text-top-list">
+                    <li><a href="#">初中数学华师大版九年级下学期 第26章 测试卷</a></li>
+                    <li><a href="#">初中数学华师大版九年级下学期 第26章 测试卷</a></li>
+                    <li><a href="#">初中数学华师大版九年级下学期 第26章 测试卷</a></li>
+                    <li><a href="#">初中数学华师大版九年级下学期 第26章 测试卷</a></li>
+                    <li><a href="#">初中数学华师大版九年级下学期 第26章 测试卷</a></li>
+                    <li><a href="#">初中数学华师大版九年级下学期 第26章 测试卷</a></li>
+                    <li><a href="#">初中数学华师大版九年级下学期 第26章 测试卷</a></li>
+                    <li><a href="#">初中数学华师大版九年级下学期 第26章 测试卷</a></li>
+                    <li><a href="#">初中数学华师大版九年级下学期 第26章 测试卷</a></li>
+                    <li><a href="#">初中数学华师大版九年级下学期 第26章 测试卷</a></li>
+                </ul>
+            </div>
+            <div class="content-mid">
+                <div class="content-mid-top d-flex justify-content-between px-3">
+                    <span class="web-gps d-lg-none d-inline-block ">
+                        分类:
+                        <div class="dropdown d-lg-none d-inline-block">
+                            <button class="dropdown-toggle all-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+                              全部
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="#">奥数</a>
+                              <a class="dropdown-item" href="#">数学题</a>
+                              <a class="dropdown-item" href="#">数学知识</a>
+                            </div>
+                          </div>
+                    </span>
+                    <div>
+                        <button type="button" class="btn btn-outline-secondary d-lg-inline-block d-none">题目</button>
+                        <button type="button" class="btn btn-outline-secondary d-lg-inline-block d-none">试卷/课件</button>
+                    </div>
+                    
+                    <span class="right-text"><span class="computer-block d-lg-inline-block d-none">关于“<i>鸡兔同笼</i>”</span>为您搜索到<i>1234</i>个结果：</span>
+                </div>
+                <!-- 分类 -->
+                <!-- 加载内容 -->
+                <div class="content-mid-bottom">
+                    <ul class="item-list">
+                        <li class="item-list-item d-flex d-lg-block flex-column">
+                            <div class="item-title order-2 d-flex d-lg-block justify-content-between"><span><span class="web-style">栏目：</span><span><a href="#" class="font-color">奥数</a></span></span><div class="web-time">2020-06-06</div></div>            
+                            <div class="item-text order-1 d-flex justify-content-between align-items-center">
+                                <a href="#">鸡兔同笼，兔比鸡少了7只，脚数共有152只，鸡、兔各几只?</a><button type="button" class="btn btn-outline-secondary d-lg-inline-block d-none">查看全文</button>
+                            </div>        
+                        </li>
+                        <li class="item-list-item d-flex d-lg-block flex-column">
+                            <div class="item-title order-2 d-flex d-lg-block justify-content-between"><span><span class="web-style">栏目：</span><span><a href="#" class="font-color">奥数</a></span></span><div class="web-time">2020-06-06</div></div>            
+                            <div class="item-text order-1 d-flex justify-content-between align-items-center">
+                                <a href="#">鸡兔同笼，兔比鸡少了7只，脚数共有152只，鸡、兔各几只?</a><button type="button" class="btn btn-outline-secondary d-lg-inline-block d-none">查看全文</button>
+                            </div>        
+                        </li>
+                        <li class="item-list-item d-flex d-lg-block flex-column">
+                            <div class="item-title order-2 d-flex d-lg-block justify-content-between"><span><span class="web-style">栏目：</span><span><a href="#" class="font-color">奥数</a></span></span><div class="web-time">2020-06-06</div></div>            
+                            <div class="item-text order-1  d-flex justify-content-between align-items-center">
+                                <a href="#">鸡兔同笼，兔比鸡少了7只，脚数共有152只，鸡、兔各几只?</a><button type="button" class="btn btn-outline-secondary d-lg-inline-block d-none">查看全文</button>
+                            </div>        
+                        </li>
+                        <li class="item-list-item d-flex d-lg-block flex-column">
+                            <div class="item-title order-2 d-flex d-lg-block justify-content-between"><span><span class="web-style">栏目：</span><span><a href="#" class="font-color">奥数</a></span></span><div class="web-time">2020-06-06</div></div>            
+                            <div class="item-text order-1 d-flex justify-content-between align-items-center">
+                                <a href="#">鸡兔同笼，兔比鸡少了7只，脚数共有152只，鸡、兔各几只?</a><button type="button" class="btn btn-outline-secondary d-lg-inline-block d-none">查看全文</button>
+                            </div>        
+                        </li>
+                        <li class="item-list-item d-flex d-lg-block flex-column">
+                            <div class="item-title order-2 d-flex d-lg-block justify-content-between"><span><span class="web-style">栏目：</span><span><a href="#" class="font-color">奥数</a></span></span><div class="web-time">2020-06-06</div></div>            
+                            <div class="item-text order-1 d-flex justify-content-between align-items-center">
+                                <a href="#">鸡兔同笼，兔比鸡少了7只，脚数共有152只，鸡、兔各几只?</a><button type="button" class="btn btn-outline-secondary d-lg-inline-block d-none">查看全文</button>
+                            </div>        
+                        </li>
+                        <li class="item-list-item d-flex d-lg-block flex-column">
+                            <div class="item-title order-2 d-flex d-lg-block justify-content-between"><span><span class="web-style">栏目：</span><span><a href="#" class="font-color">奥数</a></span></span><div class="web-time">2020-06-06</div></div>            
+                            <div class="item-text order-1  d-flex justify-content-between align-items-center">
+                                <a href="#">鸡兔同笼，兔比鸡少了7只，脚数共有152只，鸡、兔各几只?</a><button type="button" class="btn btn-outline-secondary d-lg-inline-block d-none">查看全文</button>
+                            </div>        
+                        </li>
+                        <li class="item-list-item d-flex d-lg-block flex-column">
+                            <div class="item-title order-2 d-flex d-lg-block justify-content-between"><span><span class="web-style">栏目：</span><span><a href="#" class="font-color">奥数</a></span></span><div class="web-time">2020-06-06</div></div>            
+                            <div class="item-text order-1 d-flex justify-content-between align-items-center">
+                                <a href="#">鸡兔同笼，兔比鸡少了7只，脚数共有152只，鸡、兔各几只?</a><button type="button" class="btn btn-outline-secondary d-lg-inline-block d-none">查看全文</button>
+                            </div>        
+                        </li>
+                        <li class="item-list-item d-flex d-lg-block flex-column">
+                            <div class="item-title order-2 d-flex d-lg-block justify-content-between"><span><span class="web-style">栏目：</span><span><a href="#" class="font-color">奥数</a></span></span><div class="web-time">2020-06-06</div></div>            
+                            <div class="item-text order-1 d-flex justify-content-between align-items-center">
+                                <a href="#">鸡兔同笼，兔比鸡少了7只，脚数共有152只，鸡、兔各几只?</a><button type="button" class="btn btn-outline-secondary d-lg-inline-block d-none">查看全文</button>
+                            </div>        
+                        </li>
+                        <li class="item-list-item d-flex d-lg-block flex-column">
+                            <div class="item-title order-2 d-flex d-lg-block justify-content-between"><span><span class="web-style">栏目：</span><span><a href="#" class="font-color">奥数</a></span></span><div class="web-time">2020-06-06</div></div>            
+                            <div class="item-text order-1 d-flex justify-content-between align-items-center">
+                                <a href="#">鸡兔同笼，兔比鸡少了7只，脚数共有152只，鸡、兔各几只?</a><button type="button" class="btn btn-outline-secondary d-lg-inline-block d-none">查看全文</button>
+                            </div>        
+                        </li>
+                        <li class="item-list-item d-flex d-lg-block flex-column">
+                            <div class="item-title order-2 d-flex d-lg-block justify-content-between"><span><span class="web-style">栏目：</span><span><a href="#" class="font-color">奥数</a></span></span><div class="web-time">2020-06-06</div></div>            
+                            <div class="item-text order-1 d-flex justify-content-between align-items-center">
+                                <a href="#">鸡兔同笼，兔比鸡少了7只，脚数共有152只，鸡、兔各几只?</a><button type="button" class="btn btn-outline-secondary  d-lg-block d-none">查看全文</button>
+                            </div>        
+                        </li>
+                        <li class="item-list-item">
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination px-5 py-4 justify-content-center">
+                                    <li class="page-item"><a class="page-link text-secondary d-lg-block d-none" href="#">首页</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link text-secondary" href="#" aria-label="Previous">
+                                            上一页
+                                        </a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link text-secondary" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link text-secondary" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link text-secondary" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link text-secondary" href="#">4</a></li>
+                                    <li class="page-item d-lg-block d-none"><a class="page-link text-secondary" href="#">5</a></li>
+                                    <li class="page-item d-lg-block d-none"><a class="page-link text-secondary" href="#">6</a></li>
+
+                                    <li class="page-item">
+                                        <a class="page-link text-secondary" href="#" aria-label="Next">
+                                            下一页
+                                        </a>
+                                     </li>
+                                     <li class="page-item d-lg-block d-none"><a class="page-link text-secondary" href="#">尾页</a></li>
+                                     <li class="page-item d-lg-block d-none"><input type="text" placeholder="" class="form-control rounded-0 border-top border-bottom" style="width: 60px;"></a></li>
+                                     <li class="page-item d-lg-block d-none"><a class="page-link text-secondary">跳转</a></li>                  
+                                </ul>
+                            </nav>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+    <!-- pc底部 -->
+    <div class="foot">
+        <div class="foot-bd d-flex justify-content-between container">
+            <div class="foot-bd-left pt-5">
+                <h3 class="mb-0">网站地图</h3>
+                <ul class="d-flex flex-wrap mb-0 pt-3">
+                    <li><a href="./First-level column.html" class="foot-link">小学奥数题</a></li>
+                    <li><a href="#" class="foot-link">小学数学课件</a></li>
+                    <li><a href="./Second-level column.html" class="foot-link">小学数学题</a></li>
+                    <li><a href="#" class="foot-link">数学公式</a></li>
+                    <li><a href="#" class="foot-link">小学数学试卷</a></li>
+                    <li><a href="#" class="foot-link">数学知识</a></li>
+                </ul>
+            </div>
+            <div class="foot-bd-mid pt-5 px-3">
+            <h3 class="mb-0">网站简介</h3>
+            <p class="mb-0 pt-3">奥数网(XXXXXX.COM)是一个基于百万量级中小学题库上实现的在线教育网，试卷涵盖全国中小学各版本教材，试题质量高、更新快，是深受中小学教师喜爱的组卷平台，分为：数学组卷、语文组卷、英语组卷、物理组卷、历史组卷等学科组卷频道，提供手工、智能、平行组卷，助力您的教学</p>
+            </div>
+            <div class="foot-bd-right pt-5">
+                <div class="message d-flex justify-content-between">
+                    <div class="erweima-box">
+                        <img src="./img/erweima.jpg" alt="" class="erweima px-2">
+                        <h4 class="mb-0 ">微信公众号</h4>
+                    </div>
+                    <div class="px-3">
+                        <p class="mb-0 pb-3">本站点发布的文章作品均来自用户投稿或网络整理,，如部分文章涉及版权问题请及时通过以下方式联系站点负责人。</p>
+                        <a href="#" class="qq btn d-lg-block">联系QQ：403074932</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="foot-finally pt-3">
+        2006-2021 组阅-思高达科技 粤ICP备14099982号
+        <p class="mb-0">
+            <a href="#" class="foot-finally-link">21世纪教育网</a>
+            <a href="#" class="foot-finally-link">二一高考</a>
+            <a href="#" class="foot-finally-link">组卷题库</a>
+            <a href="#" class="foot-finally-link">中公网校</a>
+            <a href="#" class="foot-finally-link">课堂无忧</a>
+            <a href="#" class="foot-finally-link">教育资讯</a>
+            <a href="#" class="foot-finally-link">高考资源</a>
+            <a href="#" class="foot-finally-link">法务园</a>
+            <a href="#" class="foot-finally-link">学校教师招聘</a>
+            <a href="#" class="foot-finally-link">汽车连接器</a>
+            <a href="#" class="foot-finally-link">学生范文网</a>
+            <a href="#" class="foot-finally-link">建造师</a>
+            <a href="#" class="foot-finally-link">出卷题库</a>
+            <a href="#" class="foot-finally-link">连接器世界</a>
+        </p>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- web-底部 -->
+    <div class="web-finally py-4">到底了~</div>
+    <!-- web底部样式 -->
+    <div class="web-foot d-lg-none d-block py-4">
+        <div class="foot-box"><div class="web-foot-top"><a href="#">奥数库</a><span class="vertical-line"></span><a href="#">电脑版</a><span class="vertical-line"></span><a href="#">网站导航</a></div></div>
+        <div class="web-foot-down">苏ICP备11071310号</div>
+    </div>
+      
+</body>
+    <script src="./js/jquery@3.5.1.min.js"></script>
+    <script src="./js/popper@1.16.0.min.js"></script>
+    <script src="./js/bootstrap@4.5.0.min.js"></script>
+</html>

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>奥数网</title>
+        <link rel="stylesheet" href="./css/bootstrap@4.5.0.css">
+        <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+      <!-- 网页头部编写 -->
+    <div class="HeaderView d-lg-block d-none">
+        <div class="top-head d-lg-block d-none">
+            <div class="container top-head-content">
+                <div class="d-lg-flex justify-content-between  d-none">
+                    <span class="slogan" >欢迎来到<a href="#" class='ask'>奥数库</a></span>
+                    <a href="#" class="head-map">网站地图</a>
+                </div> 
+            </div>
+        </div>
+        <!-- 搜索栏编写 -->
+        <div class="top-search">
+            <div class="container top-search-content d-flex justify-content-between align-items-center">
+                <a href="#" class="d-none d-lg-block"><img src="./img/logo.png" alt=""></a>
+                <div class="input-group search d-flex justify-content-between">
+                    <input type="text" class="form-control d-lg-inline-block d-none " placeholder="请输入搜索关键字" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                    <button class="btn btn-outline-secondary search-button" type="button" id="button-addon2"></button>
+                    </div>
+                </div>
+                <img src="./img/erweima.jpg" alt="二维码" class="code d-lg-inline-block d-none">
+            </div>
+        </div>
+        <!-- 导航栏编写 -->
+        <nav class="navbar navbar-dark  head-nav d-lg-block d-none">
+            <ul class="nav  container">
+                <li class="nav-item ">
+                <a class="nav-link" href="./index.html">首页</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./math-First-level.html">小学奥数</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./math2-First-level.html">小学数学题</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./class.html">小学数学试卷</a>
+                </li>
+                <li class="nav-item active">
+                <a class="nav-link" href="./class2.html">小学数学课件</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./knowledge.html">数学公式</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./knowledge2.html">数学知识</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+        <!-- web头部导航栏 -->
+        <div class="web-head">
+            <nav class="web-navbar">
+                <div class="d-flex justify-content-between">
+                    <a href="#"  class="web-logo"><img src="./img/logo.png" alt=""></a> 
+                    <div class="dropdown">
+                        <a class="btn btn-secondary web-nav-btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" data-display="static" aria-expanded="false">
+                        全部菜单
+                        </a>                
+                        <div class="dropdown-menu dropdown-menu-right dropdown-menu-left" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="./math-First-level.html">小学奥数题</a>
+                        <a class="dropdown-item" href="./math2-First-level.html">小学数学题</a>
+                        <a class="dropdown-item" href="./class.html">小学数学题试卷</a>
+                        <a class="dropdown-item" href="./class2.html">小学数学课件</a>
+                        <a class="dropdown-item" href="./knowledge.html">小学数学公式</a>
+                        <a class="dropdown-item" href="./knowledge2.html">小学数学知识</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- web身体编写 -->
+        <div class="web-body">
+            <!-- web搜索栏 -->
+            <div class="web-search row d-flex justify-content-between">
+                <input type="text" class="web-input pl-3" placeholder="搜索更多奥数题">
+                <button class="web-search-btn">搜索</button>
+            </div>
+            <!-- web点击内容编写 -->
+            <div class="web-message row mx-3">
+                <div class="col-4 web-message-item pl-3 py-3">
+                    <a href="./math2-First-level.html">
+                        <div class="web-message-bg"></div>
+                        <div class="web-message-text pt-2">小学奥数题</div>
+                    </a>
+                </div>
+                <div class="col-4 web-message-item px-3 py-3">
+                    <a href="./math-Second-level.html">
+                        <div class="web-message-bg "></div>
+                        <div class="web-message-text pt-2">小学数学题</div>
+                    </a>
+                </div>
+                <div class="col-4 web-message-item  px-3 py-3">
+                    <a href="./class.html">
+                        <div class="web-message-bg "></div>
+                        <div class="web-message-text pt-2">小学数学试卷</div>
+                    </a>
+                </div>
+                <div class="col-4 web-message-item px-3 py-3" >
+                    <a href="./class2.html">
+                        <div class="web-message-bg"></div>
+                        <div class="web-message-text pt-2">小学数学课件</div>
+                    </a>
+                </div>
+                <div class="col-4 web-message-item  px-3 py-3">
+                    <a href="./knowledge.html">
+                        <div class="web-message-bg"></div>
+                        <div class="web-message-text pt-2">小学数学公式</div>
+                    </a>
+                </div>
+                <div class="col-4 web-message-item px-3 py-3">
+                    <a href="./knowledge2.html">
+                    <div class="web-message-bg"></div>
+                    <div class="web-message-text pt-2">小学数学知识</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- 网页内容部分编写 -->
+        <div class="content-body container pb-lg-5">
+                <!-- 左边内容 -->
+                <div class="content-left">
+                    <!-- 内容导航编写 -->
+                    <div class="zy-item zy-cpt">
+                        <div class="zy-title px-3 py-3 d-lg-flex align-items-center">
+                            <i class="zy-icon0"></i>
+                            <h3 class="d-inline-block mb-0">小学奥数大全及答案</h3>
+                        </div>
+                        <ul class="d-flex justify-content-spacearound flex-wrap mb-0">
+                            <li class="zy-box "><a href="./math-Second-level-1.html" class="d-flex px-2 py-2"><i class="zy-icon1 zy-icon"></i><div class="zy-div d-flex align-items-center pl-3">一年级奥数</div></a></li>
+                            <li class="zy-box "><a href="./math-Second-level-2.html" class="d-flex px-2 py-2"><i class="zy-icon2 zy-icon"></i><div class="zy-div d-flex align-items-center pl-3">二年级奥数</div></a></li>
+                            <li class="zy-box "><a href="./math-Second-level-3.html" class="d-flex px-2 py-2"><i class="zy-icon3 zy-icon"></i><div class="zy-div d-flex align-items-center pl-3">三年级奥数</div></a></li>
+                            <li class="zy-box "><a href="./math-Second-level-4.html" class="d-flex px-2 py-2"><i class="zy-icon4 zy-icon"></i><div class="zy-div d-flex align-items-center pl-3">四年级奥数</div></a></li>
+                            <li class="zy-box "><a href="./math-Second-level-5.html" class="d-flex px-2 py-2"><i class="zy-icon5 zy-icon"></i><div class="zy-div d-flex align-items-center pl-3">五年级奥数</div></a></li>
+                            <li class="zy-box "><a href="./math-Second-level-6.html" class="d-flex px-2 py-2"><i class="zy-icon6 zy-icon"></i><div class="zy-div d-flex align-items-center pl-3">六年级奥数</div></a></li>
+                        </ul>
+                    </div>
+                    <div class="zy-item zy-cpt">
+                        <div class="zy-title px-lg-3 py-lg-3 d-lg-flex align-items-center">
+                            <i class="zy-icon0"></i>
+                            <h3 class="d-inline-block mb-0">小学数学试卷</h3>
+                        </div>
+                        <ul class="d-flex justify-content-spacearound flex-wrap mb-0">
+                            <li class="zy-box "><a href="math2-Second-level-1.html" class="d-flex px-2 py-2"><i class="zy-icon1 zy-icon"></i><div class="zy-div d-flex align-items-center pl-3">一年级奥数</div></a></li>
+                            <li class="zy-box "><a href="math2-Second-level-2.html" class="d-flex px-2 py-2"><i class="zy-icon2 zy-icon"></i><div class="zy-div d-flex align-items-center pl-3">二年级奥数</div></a></li>
+                            <li class="zy-box "><a href="math2-Second-level-3.html" class="d-flex px-2 py-2"><i class="zy-icon3 zy-icon"></i><div class="zy-div d-flex align-items-center pl-3">三年级奥数</div></a></li>
+                            <li class="zy-box "><a href="math2-Second-level-4.html" class="d-flex px-2 py-2"><i class="zy-icon4 zy-icon"></i><div class="zy-div d-flex align-items-center pl-3">四年级奥数</div></a></li>
+                            <li class="zy-box "><a href="math2-Second-level-5.html" class="d-flex px-2 py-2"><i class="zy-icon5 zy-icon"></i><div class="zy-div d-flex align-items-center pl-3">五年级奥数</div></a></li>
+                            <li class="zy-box "><a href="math2-Second-level-6.html" class="d-flex px-2 py-2"><i class="zy-icon6 zy-icon"></i><div class="zy-div d-flex align-items-center pl-3">六年级奥数</div></a></li>
+                        </ul>
+                    </div>
+                    <div class="zy-item zy-cpt">
+                        <div class="zy-title px-lg-3 py-lg-3 d-lg-flex align-items-center">
+                            <i class="zy-icon0"></i>
+                            <h3 class="d-inline-block mb-0">小学数学题大全</h3>
+                        </div>
+                        <ul class="d-flex justify-content-spacearound flex-wrap mb-0">
+                            <li class="zy-box"><a href="#" class="d-flex px-2 py-2"><i class="zy-icon1 zy-icon"></i><div class="zy-div d-flex align-items-center pl-3">一年级奥数</div></a></li>
+                            <li class="zy-box"><a href="#" class="d-flex px-2 py-2"><i class="zy-icon2 zy-icon"></i><div class="zy-div d-flex align-items-center pl-3">二年级奥数</div></a></li>
+                            <li class="zy-box"><a href="#" class="d-flex px-2 py-2"><i class="zy-icon3 zy-icon"></i><div class="zy-div d-flex align-items-center pl-3">三年级奥数</div></a></li>
+                            <li class="zy-box"><a href="#" class="d-flex px-2 py-2"><i class="zy-icon4 zy-icon"></i><div class="zy-div d-flex align-items-center pl-3">四年级奥数</div></a></li>
+                            <li class="zy-box"><a href="#" class="d-flex px-2 py-2"><i class="zy-icon5 zy-icon"></i><div class="zy-div d-flex align-items-center pl-3">五年级奥数</div></a></li>
+                            <li class="zy-box"><a href="#" class="d-flex px-2 py-2"><i class="zy-icon6 zy-icon"></i><div class="zy-div d-flex align-items-center pl-3">六年级奥数</div></a></li>
+                        </ul>
+                    </div>
+                    <!-- 底部更新推荐信息编写 -->
+                    <div class="zy-item">
+                        <div class="zy-title px-3 py-3 d-lg-flex align-items-center mt-3 mt-lg-0">
+                            <i class="zy-icon0 d-none d-lg-inline-block"></i>
+                            <h3 class="d-inline-block mb-0">最新奥数题</h3>
+                        </div>
+                        <div class="d-lg-flex justify-content-bewteeen box-t">
+                            <div class="web-text web-div pt-lg-3 col-lg-12 px-0">
+                                <ul class="text mb-0 clearfix">
+                                    <li class="new-item web-text-item py-lg-1 py-3 px-3 col-lg-6 float-lg-left"></b><a href="#" class="web-text-link mx-lg-0">初中数学华师大九年级下学期 第26章测试卷测试1下学期下学期下学期</a></li>
+                                    <li class="new-item web-text-item py-lg-1 py-3 px-3 col-lg-6 float-lg-left"><a href="#" class="web-text-link mx-lg-0">初中数学华师大九年级下学期 第26章测试卷测试测试</a></li>
+                                    <li class="new-item web-text-item py-lg-1 py-3 px-3 col-lg-6 float-lg-left"><a href="#" class="web-text-link mx-lg-0">初中数学华师大九年级下学期 第26章测试卷测试测试测试</a></li>
+                                    <li class="new-item web-text-item py-lg-1 py-3 px-3 col-lg-6 float-lg-left"><a href="#" class="web-text-link mx-lg-0">初中数学华师大九年级下学期 第26章测试卷测试</a></li>
+                                    <li class="new-item web-text-item py-lg-1 py-3 px-3 col-lg-6 float-lg-left"><a href="#" class="web-text-link mx-lg-0">初中数学华师大九年级下学期 第26章测试卷</a></li>
+                                    <li class="new-item web-text-item py-lg-1 py-3 px-3 col-lg-6 float-lg-left"><a href="#" class="web-text-link mx-lg-0">初中数学华师大九年级下学期 第26章测试卷</a></li>
+                                    <li class="new-item web-text-item py-lg-1 py-3 px-3 col-lg-6 float-lg-left"><a href="#" class="web-text-link mx-lg-0">初中数学华师大九年级下学期 第26章测试卷测试测试</a></li>
+                                    <li class="new-item web-text-item py-lg-1 py-3 px-3 col-lg-6 float-lg-left"><a href="#" class="web-text-link mx-lg-0">初中数学华师大九年级下学期 第26章测试卷测试</a></li>
+                                    <li class="new-item web-text-item py-lg-1 py-3 px-3 col-lg-6 float-lg-left"><a href="#" class="web-text-link mx-lg-0">初中数学华师大九年级下学期 第26章测试卷测试</a></li>
+                                    <li class="new-item web-text-item py-lg-1 py-3 px-3 col-lg-6 float-lg-left huang"><a href="#" class="web-text-link mx-lg-0">初中数学华师大九年级下学期 第26章测试卷测试测试</a></li>
+                                    <li class="new-item web-text-item py-lg-1 py-3 px-3 col-lg-6 float-lg-left d-none d-lg-block"><a href="#" class="web-text-link mx-3 mx-lg-0">初中数学华师大九年级下学期 第26章测试卷测试1下学期下学期下学期</a></li>
+                                    <li class="new-item web-text-item py-lg-1 py-3 px-3 col-lg-6 float-lg-left d-none d-lg-block"><a href="#" class="web-text-link mx-3 mx-lg-0">初中数学华师大九年级下学期 第26章测试卷测试测试</a></li>
+                                    <li class="new-item web-text-item py-lg-1 py-3 px-3 col-lg-6 float-lg-left d-none d-lg-block"><a href="#" class="web-text-link mx-3 mx-lg-0">初中数学华师大九年级下学期 第26章测试卷测试测试测试</a></li>
+                                    <li class="new-item web-text-item py-lg-1 py-3 px-3 col-lg-6 float-lg-left d-none d-lg-block"><a href="#" class="web-text-link mx-3 mx-lg-0">初中数学华师大九年级下学期 第26章测试卷测试</a></li>
+                                    <li class="new-item web-text-item py-lg-1 py-3 px-3 col-lg-6 float-lg-left d-none d-lg-block"><a href="#" class="web-text-link mx-3 mx-lg-0">初中数学华师大九年级下学期 第26章测试卷</a></li>
+                                    <li class="new-item web-text-item py-lg-1 py-3 px-3 col-lg-6 float-lg-left d-none d-lg-block"><a href="#" class="web-text-link mx-3 mx-lg-0">初中数学华师大九年级下学期 第26章测试卷</a></li>
+                                    <li class="new-item web-text-item py-lg-1 py-3 px-3 col-lg-6 float-lg-left d-none d-lg-block"><a href="#" class="web-text-link mx-3 mx-lg-0">初中数学华师大九年级下学期 第26章测试卷测试测试</a></li>
+                                    <li class="new-item web-text-item py-lg-1 py-3 px-3 col-lg-6 float-lg-left d-none d-lg-block"><a href="#" class="web-text-link mx-3 mx-lg-0">初中数学华师大九年级下学期 第26章测试卷测试</a></li>
+                                    <li class="new-item web-text-item py-lg-1 py-3 px-3 col-lg-6 float-lg-left d-none d-lg-block"><a href="#" class="web-text-link mx-3 mx-lg-0">初中数学华师大九年级下学期 第26章测试卷测试</a></li>
+                                    <li class="new-item web-text-item py-lg-1 py-3 px-3 col-lg-6 float-lg-left d-none d-lg-block"><a href="#" class="web-text-link mx-3 mx-lg-0">初中数学华师大九年级下学期 第26章测试卷测试测试</a></li>               </ul>
+                            </div>
+                            <div class="web-text web-div pt-lg-3 pl-lg-5 d-lg-none d-block">
+                                <div class="web-text-title d-flex d-lg-none justify-content-between mt-3 px-3 py-3"><h3 class="mb-0">奥数题关注排行</h3><a href="#" class="web-more">查看更多</a></div>
+                                <ul class="text2 text mb-0">
+                                    <li class="new-item web-text-item px-lg-2 py-lg-1 px-3 py-3"><a href="#" class="web-text-link">初中数学华师大九年级下学期 第26章测试卷测试测试测试</a></li>
+                                    <li class="new-item web-text-item px-lg-2 py-lg-1 px-3 py-3"><a href="#" class="web-text-link">初中数学华师大九年级下学期 第26章测试卷</a></li>
+                                    <li class="new-item web-text-item px-lg-2 py-lg-1 px-3 py-3"><a href="#" class="web-text-link">初中数学华师大九年级下学期 第26章测试卷测试</a></li>
+                                    <li class="new-item web-text-item px-lg-2 py-lg-1 px-3 py-3"><a href="#" class="web-text-link">初中数学华师大九年级下学期 第26章测试卷</a></li>
+                                    <li class="new-item web-text-item px-lg-2 py-lg-1 px-3 py-3"><a href="#" class="web-text-link">初中数学华师大九年级下学期 第26章测试卷测试</a></li>
+                                    <li class="new-item web-text-item px-lg-2 py-lg-1 px-3 py-3"><a href="#" class="web-text-link">初中数学华师大九年级下学期 第26章测试卷测试</a></li>
+                                    <li class="new-item web-text-item px-lg-2 py-lg-1 px-3 py-3"><a href="#" class="web-text-link">初中数学华师大九年级下学期 第26章测试卷测试测试</a></li>
+                                    <li class="new-item web-text-item px-lg-2 py-lg-1 px-3 py-3"><a href="#" class="web-text-link">初中数学华师大九年级下学期 第26章测试卷测试</a></li>
+                                    <li class="new-item web-text-item px-lg-2 py-lg-1 px-3 py-3"><a href="#" class="web-text-link">初中数学华师大九年级下学期 第26章测试卷测试</a></li>
+                                    <li class="new-item web-text-item px-lg-2 py-lg-1 px-3 py-3"><a href="#" class="web-text-link">初中数学华师大九年级下学期 第26章测试卷测试</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <!-- 右侧推荐更新信息 -->
+                <div class="content-right zy-cpt">
+                        <ul class="right-content mb-0">
+                            <div class="zy-title d-flex justify-content-between py-3 ">
+                                <h3 class="mb-0">奥数试题推荐</h3><a href="#" class="more">更多</a>
+                            </div>
+                            <li class="px-2 py-1"><a href="#" class="link zy-link">初中数学华师大版九年级下学期 第26章 测试卷高等数学题目</a></li>
+                            <li class="px-2 py-1"><a href="#" class="link zy-link">初中数学华师大版九年级下学期 第26章 实践与探索</a></li>
+                            <li class="px-2 py-1"><a href="#" class="link zy-link">初中数学华师大版九年级下学期 第26章 二次函数</a></li>
+                            <li class="px-2 py-1"><a href="#" class="link zy-link">初中数学华师大版九年级下学期 第26章</a></li>
+                            <li class="px-2 py-1"><a href="#" class="link zy-link">初中数学华师大版九年级下学期 第26章三元一次函数不等式</a></li>
+                            <li class="px-2 py-1"><a href="#" class="link zy-link">初中数学华师大版九年级下学期 第26章</a></li>
+                            <li class="px-2 py-1"><a href="#" class="link zy-link">初中数学华师大版九年级下学期 第26章</a></li>
+                            <li class="px-2 py-1"><a href="#" class="link zy-link">初中数学华师大版九年级下学期 第26章</a></li>
+                            <li class="px-2 py-1"><a href="#" class="link zy-link">初中数学华师大版九年级下学期 第26章</a></li>
+                            <li class="px-2 py-1"><a href="#" class="link zy-link">初中数学华师大版九年级下学期 第26章</a></li>
+                        </ul>
+                        <ul class="right-content mb-0">
+                            <div class="zy-title d-flex justify-content-between py-3 ">
+                                <h3 class="mb-0">热门试卷</h3><a href="#" class="more">更多</a>
+                            </div>
+                            <li class="px-2 py-1"><a href="#" class="link zy-link">初中数学华师大版九年级下学期 第26章 测试卷高等数学题目</a></li>
+                            <li class="px-2 py-1"><a href="#" class="link zy-link">初中数学华师大版九年级下学期 第26章 实践与探索</a></li>
+                            <li class="px-2 py-1"><a href="#" class="link zy-link">初中数学华师大版九年级下学期 第26章 二次函数</a></li>
+                            <li class="px-2 py-1"><a href="#" class="link zy-link">初中数学华师大版九年级下学期 第26章</a></li>
+                            <li class="px-2 py-1"><a href="#" class="link zy-link">初中数学华师大版九年级下学期 第26章三元一次函数不等式</a></li>
+                            <li class="px-2 py-1"><a href="#" class="link zy-link">初中数学华师大版九年级下学期 第26章</a></li>
+                            <li class="px-2 py-1"><a href="#" class="link zy-link">初中数学华师大版九年级下学期 第26章</a></li>
+                            <li class="px-2 py-1"><a href="#" class="link zy-link">初中数学华师大版九年级下学期 第26章</a></li>
+                            <li class="px-2 py-1"><a href="#" class="link zy-link">初中数学华师大版九年级下学期 第26章</a></li>
+                            <li class="px-2 py-1"><a href="#" class="link zy-link">初中数学华师大版九年级下学期 第26章</a></li>
+                        </ul>
+                </div>
+            </div>
+        <!-- 底部 -->
+        <div class="foot">
+            <div class="foot-bd d-flex justify-content-between container">
+                <div class="foot-bd-left pt-5">
+                    <h3 class="mb-0">网站地图</h3>
+                    <ul class="d-flex flex-wrap mb-0 pt-3">
+                        <li><a href="./First-level column.html" class="foot-link">小学奥数题</a></li>
+                        <li><a href="#" class="foot-link">小学数学课件</a></li>
+                        <li><a href="./Second-level column.html" class="foot-link">小学数学题</a></li>
+                        <li><a href="#" class="foot-link">数学公式</a></li>
+                        <li><a href="#" class="foot-link">小学数学试卷</a></li>
+                        <li><a href="#" class="foot-link">数学知识</a></li>
+                    </ul>
+                </div>
+                <div class="foot-bd-mid pt-5 px-3">
+                <h3 class="mb-0">网站简介</h3>
+                <p class="mb-0 pt-3">奥数网(XXXXXX.COM)是一个基于百万量级中小学题库上实现的在线教育网，试卷涵盖全国中小学各版本教材，试题质量高、更新快，是深受中小学教师喜爱的组卷平台，分为：数学组卷、语文组卷、英语组卷、物理组卷、历史组卷等学科组卷频道，提供手工、智能、平行组卷，助力您的教学</p>
+                </div>
+                <div class="foot-bd-right pt-5">
+                    <div class="message d-flex justify-content-between">
+                        <div class="erweima-box">
+                            <img src="./img/erweima.jpg" alt="" class="erweima px-2">
+                            <h4 class="mb-0 ">微信公众号</h4>
+                        </div>
+                        <div class="px-3">
+                            <p class="mb-0 pb-3">本站点发布的文章作品均来自用户投稿或网络整理,，如部分文章涉及版权问题请及时通过以下方式联系站点负责人。</p>
+                            <a href="#" class="qq btn d-lg-block">联系QQ：403074932</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="foot-finally pt-3">
+            2006-2021 组阅-思高达科技 粤ICP备14099982号
+            <p class="mb-0">
+                <a href="#" class="foot-finally-link">21世纪教育网</a>
+                <a href="#" class="foot-finally-link">二一高考</a>
+                <a href="#" class="foot-finally-link">组卷题库</a>
+                <a href="#" class="foot-finally-link">中公网校</a>
+                <a href="#" class="foot-finally-link">课堂无忧</a>
+                <a href="#" class="foot-finally-link">教育资讯</a>
+                <a href="#" class="foot-finally-link">高考资源</a>
+                <a href="#" class="foot-finally-link">法务园</a>
+                <a href="#" class="foot-finally-link">学校教师招聘</a>
+                <a href="#" class="foot-finally-link">汽车连接器</a>
+                <a href="#" class="foot-finally-link">学生范文网</a>
+                <a href="#" class="foot-finally-link">建造师</a>
+                <a href="#" class="foot-finally-link">出卷题库</a>
+                <a href="#" class="foot-finally-link">连接器世界</a>
+            </p>
+            </div>
+        </div>
+        </div>
+        <!-- web底部样式 -->
+        <div class="web-foot d-lg-none d-block py-4">
+            <div class="foot-box"><div class="web-foot-top"><a href="#">奥数库</a><span class="vertical-line"></span><a href="#">电脑版</a><span class="vertical-line"></span><a href="#">网站导航</a></div></div>
+            <div class="web-foot-down">苏ICP备11071310号</div>
+        </div>
+</body>
+        <script src="./js/jquery@3.5.1.min.js"></script>
+        <script src="./js/popper@1.16.0.min.js"></script>
+        <script src="./js/bootstrap@4.5.0.min.js"></script>
+        <script src="./js/web.js"></script>
+</html>

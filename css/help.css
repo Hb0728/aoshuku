@@ -1,0 +1,255 @@
+/* head部分样式编写 */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .container{
+    width: 1200px;
+  }
+  .top-head-content{
+    width: 1200px;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    color: #666666;
+  }
+  .top-head-content a:hover{
+    color: #007bff;
+  }
+  .ask{
+    color: #666666;
+    list-style:none;
+    padding-left: 0.5rem;
+  }
+  .form-control{
+    border: 1px solid #999;
+  }
+  .form-control:hover{
+    border: 1px solid #666666;
+  }
+  .form-control:focus{
+    outline: none;
+    border: 1px solid rgb(68,152,238);
+    box-shadow: none;
+  }
+  .search-button:hover{
+    background-color: rgb(57,130,206);
+  }
+  .search-button{
+    background:url(../img/search.svg) center no-repeat;
+    background-size:contain;
+    background-color: rgb(68,152,238);
+    width: 70px;
+  }
+  .search-button:focus{
+    box-shadow: none;
+  }
+  .head-map{
+    color: #666666;
+    list-style:none;
+  }
+  .code {
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    right: 10px;
+    width: 5rem;
+    height: 5rem;
+  }
+  .HeaderView>.top-head {
+    width: 100%;
+    background-color: #f6f6f6;
+    font-size: 0.75rem;
+  }
+  .top-search{
+    height: 7.5rem;
+    background-color: #fff;
+  }
+  .top-search-content{
+    height: 7.5rem;
+    position: relative;
+  }
+  .top-search-content a{
+    position: absolute;
+    left:15px;
+    top:50%;
+    transform: translate(0,-50%) 
+  }
+  .search{
+    position: absolute;
+    width:30rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .search button{
+    height: 2.4rem;
+  }
+  .content-left{
+    height: 1000px;
+    box-sizing: border-box;
+  }
+  .head-nav{
+    overflow: hidden;
+    background-color: rgb(68,152,238);
+  }
+  .nav-link{
+    height: 3.2rem;
+    color: #fff;
+    line-height: 3.2rem;
+    text-align: center;
+    padding: 0;
+  }
+  .nav-link:hover{
+    color: #fff;
+    background-color: rgb(57,130,206);
+  }
+  .navbar{
+    padding: 0;
+    height: 3.2rem;
+  }
+  .nav{
+    display: flex;
+  }
+  .nav-item{
+    flex:1
+  }
+ /* 当前位置样式编写 */
+ .gps{
+    padding: 0.5rem 0;
+    color: #666666;
+    font-size: 14px;
+}
+  .gps a{
+    color: #666666;
+    font-size: 14px;
+}
+
+/* 身体样式编写 */
+body{
+    background-color: #f5f5f5;
+}
+.content{
+    background-color: #f5f5f5;
+    border: 1px solid transparent;
+    padding-right: 0;
+}
+.content-right{
+    height: 500px;
+    background: #fff;
+    font-size: 14px;
+    padding-left: 20px;
+    width: 20%;
+}
+.content-right h3{
+    font-size: 18px;
+}
+.content-right>ul>li{
+    list-style: none;
+}
+.content-right>ul>li>a{
+    font-size: 14px;
+    list-style: none;
+    margin: 10px 0;
+    color: #333;
+}
+.int-map{
+    font-size: 20px;
+    height: 100px;
+    border-bottom:1px solid #999;
+    text-align: center;
+    line-height: 100px;
+    color: #333;
+}
+.content-left{
+    background-color: #fff;
+    width: 80%;
+    margin-right: 10px;
+}
+.in-class{
+    font-size: 14px;
+}
+.in-class a{
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+}
+
+/* 底部样式编写 */
+.foot{
+  background: #364044;
+  color: #f5f5f5;
+  height: 19rem;
+}
+.foot-bd-left{
+  width: 10rem;
+}
+.foot h3{
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.foot-bd-mid{
+  font-size: 12px;
+  line-height: 20px;
+}
+.foot-link{
+  color: #fff;
+  font-size: 0.75rem;
+}
+.foot-link:hover{
+  color: #fff;
+}
+.foot ul{
+  width: 10rem;
+}
+.foot li{
+  display: inline-block;
+  width: 5rem;
+}
+.foot-bd-left li{
+  display: inline-block;
+}
+.foot-bd-right{
+  font-size: 0.5rem;
+}
+
+.erweima{
+  width: 100px;
+  height: 80px;
+}
+.erweima-box h4{
+  font-size: 0.5rem;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.qq{
+  display: inline-block;
+  width: 208px;
+  height: 40px;
+  background-color: rgb(68, 152, 238);
+  text-align: center;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 28px;
+}
+.qq:hover{
+  background-color: rgb(57,130,206);
+  color: #fff;
+}
+.foot-bd{
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #999;
+}
+.foot-finally{
+  text-align: center;
+  color: #999;
+  font-size: 12px;
+}
+.foot-finally-link{
+  display: inline-block;
+  color: #999;
+  margin: 2px 2px;
+  font-size: 12px;
+}

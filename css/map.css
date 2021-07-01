@@ -1,0 +1,345 @@
+/* head部分样式编写 */
+* {
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 1200px;
+}
+body{
+  background-color: #f5f5f5;
+}
+.top-head-content{
+  width: 1200px;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  color: #666666;
+}
+.code{
+  width: 70px;
+}
+.input-group{
+  width: 40%;
+}
+.top-head-content a:hover{
+  color: #007bff;
+}
+.ask{
+  color: #666666;
+  list-style:none;
+  padding-left: 0.5rem;
+}
+.form-control{
+  border: 1px solid #999;
+}
+.form-control:hover{
+  border: 1px solid #666666;
+}
+.form-control:focus{
+  outline: none;
+  border: 1px solid rgb(68,152,238);
+  box-shadow: none;
+}
+.search-button:hover{
+  background-color: rgb(57,130,206);
+}
+.search-button{
+  background:url(../img/search.svg) center no-repeat;
+  background-size:contain;
+  background-color: rgb(68,152,238);
+  width: 70px;
+}
+.search-button:focus{
+  box-shadow: none;
+}
+.head-map{
+  color: #666666;
+  list-style:none;
+}
+.HeaderView>.top-head {
+  width: 100%;
+  background-color: #f6f6f6;
+  font-size: 0.75rem;
+}
+.top-search{
+  height: 7.5rem;
+  background-color: #fff;
+}
+.top-search-content{
+  height: 7.5rem;
+}
+.content-left{
+  box-sizing: border-box;
+}
+.head-nav{
+  overflow: hidden;
+  background-color: rgb(68,152,238);
+}
+.nav-link{
+  height: 3.2rem;
+  color: #fff;
+  line-height: 3.2rem;
+  text-align: center;
+  padding: 0;
+  white-space: nowrap;
+  padding: 0 1rem;
+}
+.nav-link:hover{
+  color: #fff;
+}
+.nav-item:hover{
+  color: #fff;
+  background-color: rgb(57,130,206);
+}
+.active{
+  background-color: rgb(57,130,206)
+}
+.navbar{
+  padding: 0;
+  height: 3.2rem;
+}
+.nav{
+  display: flex;
+}
+.nav-item{
+  flex:1;
+}
+
+  /* 当前位置样式编写 */
+  .gps{
+    padding: 0.5rem 0;
+    color: #666666;
+    font-size: 14px;
+}
+  .gps a{
+    color: #666666;
+    font-size: 14px;
+}
+
+/*  身体部分样式编写 */
+.content{
+    background-color: #fff;
+    border: 1px solid transparent;
+}
+.int-map{
+    font-size: 20px;
+    height: 100px;
+    border-bottom:1px solid #999;
+    text-align: center;
+    line-height: 100px;
+    color: #333;
+}
+.item-title{
+  margin: 3rem 1rem;
+  list-style: none;
+  overflow: hidden;
+}
+.item-title h3{
+  font-size: 16px;
+  font-weight: 700;
+}
+.item-link{
+  display: inline-block;
+  font-size: 16px;
+  color: #333;
+  padding: 1rem 4rem 1rem 0;
+}
+
+
+ /* 底部样式编写 */
+ .foot{
+  background: #364044;
+  color: #f5f5f5;
+  height: 19rem;
+}
+.foot-bd-left{
+  width: 10rem;
+}
+.foot h3{
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.foot-bd-mid{
+  font-size: 12px;
+  line-height: 20px;
+}
+.foot-link{
+  color: #fff;
+  font-size: 0.75rem;
+}
+.foot-link:hover{
+  color: #fff;
+}
+.foot ul{
+  width: 10rem;
+}
+.foot li{
+  display: inline-block;
+  width: 5rem;
+}
+.foot-bd-left li{
+  display: inline-block;
+}
+.foot-bd-right{
+  font-size: 0.5rem;
+}
+
+.erweima{
+  width: 100px;
+  height: 80px;
+}
+.erweima-box h4{
+  font-size: 0.5rem;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.qq{
+  display: inline-block;
+  width: 208px;
+  height: 40px;
+  background-color: rgb(68, 152, 238);
+  text-align: center;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 28px;
+}
+.qq:hover{
+  background-color: rgb(57,130,206);
+  color: #fff;
+}
+.foot-bd{
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #999;
+}
+.foot-finally{
+  text-align: center;
+  color: #999;
+  font-size: 12px;
+}
+.foot-finally-link{
+  display: inline-block;
+  color: #999;
+  margin: 2px 2px;
+  font-size: 12px;
+}
+  @media screen and (max-width: 992px){
+    /* 清除pc端样式 */
+    .container{
+      width: 100%;
+    }
+    .body{
+      background-color: #f5f5f5;
+    }
+    .search{
+      display: flex;
+    }
+    /* web头部搜索样式 */
+    .web-navbar{
+      background-color: #333;
+      height: 44px;
+    }
+    .gps-name{
+      color: #fff;
+    }
+
+    .search{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+    .top-search{
+      height: 44px;
+      background-color: #333;
+    }
+    .top-search-content{
+      height: 44px;
+      padding-left: 0;
+      padding-right: 0;
+      width: 100%;
+    }
+    .search-button{
+      background-color: #333;
+      height: 44px;
+    }
+    .search-button:focus{
+      background-color: #333;
+    }
+    .web-back{
+      width: 10%;
+      display: inline-block;
+      color: #fff;
+      background: url(../img/back.svg) no-repeat center center;
+      background-size: contain;
+      height: 44px;
+    }
+    .now{
+      color: #fff;
+      font-size: 16px;
+      height: 38px;
+      line-height: 38px;
+    }
+    .search-button:hover{
+      background-color: #333;
+    }
+    /* web搜索列表样式 */
+    .content{
+      background-color: #f5f5f5;
+    }
+    .item-list{
+      background-color: #f5f5f5;
+    }
+
+    .item-title{
+      margin: 10px 2px;
+      border: 1px solid transparent;
+      background-color: #fff;
+      border-radius: 5px;
+    }
+    /* web底部样式 */
+    .web-foot{
+      padding-top: 2rem;
+      background-color: #f5f5f5;
+    }
+    .web-finally{
+      margin-top: 50px;
+      margin-bottom: 50px;
+      text-align: center;
+      color: #999;
+    }
+    .foot-box{
+      height: 1rem;
+      position: relative;
+    }
+    .web-foot-top{
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%,0);
+      font-size: 0.5rem;
+      white-space: nowrap
+    }
+    .web-foot-top a{
+      color: #999;
+    }
+    .web-foot-down{
+      text-align: center;
+      font-size: 0.5rem;
+      color: #999;
+    }
+    .vertical-line{
+      margin-left: 0.8rem;
+      margin-right: 0.8rem;
+      border-left: 1px solid #999;
+    }
+    /* 中间身体部分样式 */
+
+    .item-title h3{
+    }
+    .item-link{
+      font-size: 14px;
+      display: block;
+      padding: 0.5rem 1rem;
+    }
+
+  }

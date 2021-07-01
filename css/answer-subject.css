@@ -1,0 +1,370 @@
+ /* 间距清0 */
+ *{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 1200px;
+}
+/* 全局背景设置 */
+body{
+    background: #F5F5F5;
+}
+.navbar{
+  background-color: #4498ee;
+}
+/* 头部导航样式 */
+.vertical-line{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-left: 2px solid #fff;
+  height: 1rem;
+}
+.input-group{
+  width: 40%;
+}
+.head-search{
+  background-color: #fff;
+  background-image: url(../img/search2.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.form-control:focus{
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+.form-control{
+  border: none;
+}
+.left h3{
+  font-size: 16px;
+  color: #fff;
+}
+.newtime{
+  font-size: 14px;
+  color: #fff;
+}
+.text-title{
+  background-color: #333;
+}
+.btn-primary{
+  border-color: #4498ee;
+  background-color: #4498ee;
+  color: #fff;
+}
+
+  /* 当前位置样式 */
+  .gps{
+      padding: 0.5rem 0;
+      color: #666666;
+      font-size: 14px;
+  }
+  .gps a{
+      color: #666666;
+      font-size: 14px;
+  }
+    /* 左侧内容样式 */
+    .content-left{
+        float: left;
+        width: Calc(100% - 316px);
+        background-color: #fff;
+        padding:  0 2rem;
+    }
+    .text{
+      padding: 1.5rem 0;
+  }
+  .text a{
+    color: #333;
+  }
+  .da{
+    visibility: hidden;
+    width: 100%;
+    line-height: 33.59px;
+    color: #4498ee;
+  }
+  .line{
+    width: 100%;
+    border-bottom: 1px solid #999;
+    margin-right: 1rem;
+  }
+  .watch{
+      display: block;
+      color: #fff;
+      background-color: #fff;
+      border-radius: 5px;
+      background-color: rgb(68,152,238);
+      padding: 0.3rem 1rem;
+      outline: none;
+      border: none;
+      white-space: nowrap;
+  }
+  .all-take-button{
+    display: none;
+  }
+  .take{
+      display: none;
+      color: #fff;
+      background-color: #fff;
+      border-radius: 5px;
+      background-color: rgb(68,152,238);
+      padding: 0.3rem 1rem;
+      outline: none;
+      border: none;
+  }
+  .all-button{
+    background-color: #fff;
+    color: #999;
+    border: 1px solid #999;
+  }
+  .all-button2{
+    display: none;
+    background-color: #fff;
+    color: #999;
+    border: 1px solid #999;
+  }
+    /* 右侧内容样式 */
+
+    .content-right h3{
+      font-size: 18px;
+      font-weight: 700;
+      margin: 1rem;
+      border-bottom: 1px solid #666666;
+  }
+  .content-right{
+      float: right;
+      background-color: #fff;
+      width: 300px;
+  }
+  .content-right li{
+      list-style: none;
+  }
+  .content-right li a{
+      display: inline-block;
+      color: #333;
+      width: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      padding: 0.25rem 2rem 0.25rem 2rem;
+      font-size: 13px;
+  }
+  .page-item{
+    white-space: nowrap;
+  }
+
+    
+  /* 网页底部样式编写 */
+.foot{
+  background: #364044;
+  color: #f5f5f5;
+  height: 19rem;
+  }
+  .foot-bd-left{
+  width: 10rem;
+  }
+  .foot h3{
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  }
+  .foot-bd-mid{
+  font-size: 12px;
+  line-height: 20px;
+  }
+  .foot-link{
+  color: #fff;
+  font-size: 0.75rem;
+  }
+  .foot-link:hover{
+  color: #fff;
+  }
+  .foot ul{
+  width: 10rem;
+  }
+  .foot li{
+  display: inline-block;
+  width: 5rem;
+  }
+  .foot-bd-left li{
+  display: inline-block;
+  }
+  .foot-bd-right{
+  font-size: 0.5rem;
+  }
+  
+  .erweima{
+  width: 100px;
+  height: 80px;
+  }
+  .erweima-box h4{
+  font-size: 0.5rem;
+  text-align: center;
+  margin-top: 0.5rem;
+  }
+  .qq{
+  display: inline-block;
+  width: 208px;
+  height: 40px;
+  background-color: rgb(68, 152, 238);
+  text-align: center;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 28px;
+  }
+  .qq:hover{
+  background-color: rgb(57,130,206);
+  color: #fff;
+  }
+  .foot-bd{
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #999;
+  }
+  .foot-finally{
+  text-align: center;
+  color: #999;
+  font-size: 12px;
+  }
+  .foot-finally-link{
+  display: inline-block;
+  color: #999;
+  margin: 2px 2px;
+  font-size: 12px;
+  }
+  /* web样式编写 */
+  @media screen and (max-width: 992px){
+    .container{
+      width: 100%;
+    }
+    .title-box{
+      padding: 0;
+    }
+    .content-left,.content-right{
+      float: none;
+      width: 100%;
+    }
+
+    /* 头部样式 */
+    .navbar{
+      background-color:#333;
+      padding: 0;
+    }
+    .web-nav{
+      padding: 0;
+    }
+    .web-back{
+      height: 44px;
+      width: 10%;
+      display: block;
+      color: #fff;
+      background: url(../img/back.svg) no-repeat center center;
+      background-size: contain;
+  }
+  .input-group{
+    width: 100%;
+  }
+  .head-search{
+    background-color: #333;
+  }
+  .text-title{
+    background-color: #fff;
+    margin: 1rem 15px;
+    border-radius: 10px;
+  }
+  .left h3{
+    color: rgb(68, 152, 238);
+    font-size: 16px;
+    border-bottom: 1px solid #333;
+    padding: 0.5rem 1rem;
+  }
+  .all-answer-button{
+    display: none;
+  }
+    /* 内容编写 */
+   .newtime{
+     color: #333;
+   }
+   .watch{
+     display: none;
+   }
+    /* web底部样式 */
+  .web-foot{
+    margin-top: 2rem;
+}
+.web-finally{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #999;
+  }
+  .bgc h3{
+    border-bottom: 1px solid #999
+  }
+  .foot-box{
+    height: 1rem;
+    position: relative;
+  }
+  .web-foot-top{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size: 0.5rem;
+    white-space: nowrap
+  }
+  .web-foot-top a{
+    color: #999;
+  }
+  .web-foot-down{
+    text-align: center;
+    padding-bottom: 5rem;
+    font-size: 0.5rem;
+    color: #999;
+  }
+  .vertical-line{
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    border-left: 1px solid #999;
+  }
+  /* 热门试卷 */
+  .text-paper-right{
+    background-color: #f5f5f5;
+    margin: 0;
+    width: 100%;
+  }
+  .text-paper-right h3{
+    border: none;
+    margin: 0;
+    padding: 1rem 0;
+  }
+  .text-paper-right li {
+    background-color: #fff;
+    margin: 0.5rem 0;
+  }
+  .fixed{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .back-index{
+    width: 60%;
+    padding:1rem 2rem;
+    background-color: #fff;
+    color: #999;
+  }
+  .download-text{
+    width: 40%;
+    background-color:rgb(68, 152, 238);
+    color: #fff;
+    padding: 1rem 2rem;
+  }
+  .download-text2{
+    display: none;
+    width: 40%;
+    background-color:rgb(68, 152, 238);
+    color: #fff;
+    padding: 1rem 2rem;
+  }
+  }

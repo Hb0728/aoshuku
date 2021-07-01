@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>支付页面</title>
+
+
+    <link rel="stylesheet" href="./css/bootstrap@4.5.0.css">
+    <link rel="stylesheet" href="./css/pay.css">
+
+</head>
+<body>
+    <!-- 网页头部编写 -->
+    <div class="HeaderView">
+        <div class="top-head d-lg-block d-none">
+            <div class="container top-head-content">
+                <div class="d-lg-flex justify-content-between  d-none">
+                    <span class="slogan" >欢迎来到<a href="#" class='ask'>奥数库</a></span>
+                    <a href="#" class="head-map">网站地图</a>
+                </div> 
+            </div>
+        </div>
+        <!-- 搜索栏编写 -->
+        <div class="top-search">
+            <div class="container top-search-content d-flex justify-content-between align-items-center">
+                <a href="#" class="d-none d-lg-block"><img src="./img/logo.png" alt=""></a>
+                <div class="input-group search d-flex justify-content-between">
+                    <div class="d-lg-none d-flex align-items-center">
+                        <button class="btn web-back px-3"></button>
+                        <div class="text-light">收银台</div>
+                    </div>
+                    <input type="text" class="form-control d-lg-inline-block d-none " placeholder="请输入搜索关键字" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                    <button class="btn btn-outline-secondary search-button" type="button" id="button-addon2"></button>
+                    </div>
+                </div>
+                <img src="./img/erweima.jpg" alt="二维码" class="code d-lg-inline-block d-none">
+            </div>
+        </div>
+        <!-- 导航栏编写 -->
+        <nav class="navbar navbar-dark  head-nav d-lg-block d-none">
+            <ul class="nav  container">
+                <li class="nav-item ">
+                <a class="nav-link" href="./index.html">首页</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./math-First-level.html">小学奥数</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./math2-First-level.html">小学数学题</a>
+                </li>
+                <li class="nav-item active">
+                <a class="nav-link" href="./class.html">小学数学试卷</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./class2.html">小学数学课件</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./knowledge.html">数学公式数学公式数学公式</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./knowledge2.html">数学知识数学公式数学公式数学公式</a>
+                </li>
+            </ul>
+        </nav>
+      <div class="container d-lg-block d-none">
+          <div class="gps">
+              当前位置：<a href="./index.html">首页 </a>> <a href="">  搜索结果</a> 
+          </div> 
+      </div>
+
+    <!-- 内容 -->
+    <div class="content container">
+        <div class="top-box py-lg-5 py-3 ">
+            <h3 class="py-3">2019-2020学年七年级下期中数学试卷1(含答案解析)</h3>
+            <div class="d-flex top-box-bottom justify-content-center"><span class="px-lg-3">售价：</span> <span class="px-lg-3">格式：</span> <span class="px-lg-3">页数:</span> <span class="big px-lg-3">大小</span></div>
+        </div>
+        <div class="down-box py-lg-3 ">
+            <div class="message">温馨提示：请您仔细阅读资料确认无误后在进行付费
+                <div class="pay-box d-lg-none "><img class="img1" src="./img/wechat.svg" alt=""><span>微信支付</span><input type="radio" name="pay" value="weixin"></div>
+                <div class="pay-box d-lg-none "><img class="img2" src="./img/zhifubao.svg" alt=""><span>支付宝支付</span><input type="radio" name="pay" value="zhifubao"></div>
+                <div class="jump">付费后未跳转点击此处：<a href="#">验证表单</a></div>
+            </div> 
+            <div class="pay-code"><img src="./img/erweima.jpg" alt=""><img src="./img/erweima.jpg" alt=""></div>
+            <div class="agree">
+                付费时我们将默认您同意<a href="#">《奥数库用户协议》</a>
+            </div>
+            
+            <div class="sucess pb-3 d-none">
+                <div class="pay-success mt-3"><img src="./img/success.svg" alt=""><div class="pay-text pb-5 pb-lg-0">付款成功</div></div>
+                <a href="#" class="download">下载地址1</a><a href="#" class="download">下载地址2</a>
+            </div>
+            <div class="qq d-lg-block d-none">内容来自网络，若出现下载异常、文件损害等情况请与我们联系<a href="#">QQ403074932</a></div>
+        </div>
+        <div class="copy d-none">
+            <div class="copy-top">
+                为您复制客服QQ号<br>
+                <a href="#">QQ：403074932</a>
+            </div>
+            <div class="copy-down"><button class="copy-qq">复制</button></div>
+        </div>
+    </div>
+    <!-- 手机端 -->
+    <a href="./index.html" class="backindex">返回首页</a>
+    <div class="pay-agree justify-content-between"><span class="py-3 px-4">应付金额：？元</span><a class="px-4 py-3">确认支付</a></div>
+    <!--  -->
+    
+    
+</body>
+<script src="./js/jquery@3.5.1.min.js"></script>
+<script src="./js/popper@1.16.0.min.js"></script>
+<script src="./js/bootstrap@4.5.0.min.js"></script>
+<script src="./js/pay.js"></script>
+</html>
